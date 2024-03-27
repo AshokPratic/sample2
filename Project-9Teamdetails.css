@@ -1,0 +1,113 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+  }
+
+
+.ten {
+  background-image: url("../public/images/P7-P1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 900px) {
+  .ten {
+    background-size: 100% 100%;
+    z-index: -1;
+    position: relative;
+    margin-left: -5%;
+    width: 55%;
+  }
+  .expandContainer{
+    margin-left: -9%;
+    width: 117%;
+  }
+}
+#p1s1 {
+    margin-top: -130px;
+  }
+  .one{
+background-color:#272d32;
+border-bottom-right-radius: 80px; 
+}
+/* section-2 */
+.imgBorder9{
+  border-bottom: 1px solid rgb(238, 236, 236);
+  border-top: 1px solid rgb(244, 243, 243);
+  border-left: 0;
+  border-right: 0;
+ }
+ .border:hover{
+  background-color: #e34115;
+  color: white;
+ }
+ .width{
+  width: 350px;
+  height: 250px;
+  background-color: white;
+ }
+ .team-9{
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+ }
+ @media screen and (min-width: 768px) {
+  .row92 {
+         width: 89%;     
+  }
+  .center92 {
+    justify-content: center;
+    display: flex;
+  }
+  
+}
+ .Progress2{animation: progress2 2s ease-in 0.5s forwards;}
+
+@keyframes progress2 {from { width: 0% }to {width: 100%;}}
+.container2 {
+  max-width: 820px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+.comment {
+  float: left;
+  width: 100%;
+height: 170px;
+}
+/* .commenter {
+  float: left;
+}
+.commenter img {
+  width: 35px;
+  height: 35px;
+}
+.comment-text-area {
+  float: left;
+  width: 100%;
+  height: auto;
+} */
+
+.textinput {
+  float: left;
+  width: 100%;
+  min-height: 75px;
+  outline: none;
+  resize: none;
+  border: 0px solid grey;
+} 
+/* section-3 */
+#one{
+
+  background-image: url(../public/shapes/P7-SH3.png),url(../public/shapes/P7-SH2.png);
+
+  background-repeat: no-repeat;
+
+  background-position: left,right;
+}
+@media screen and (max-width : 600px){
+
+  .subcribe4{
+    width: 200px;
+  }
+  
+  }
